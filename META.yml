@@ -1,0 +1,27 @@
+---
+name: HTTP-MobileAgent-Plugin-XHTML
+version: 0.26_101
+author:
+  - 'OHTSUKA Ko-hei <nene@kokogiko.net>'
+abstract: Add xhtml_compliant method to HTTP::MobileAgent
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  HTTP::MobileAgent: 0.26_1
+  Test::Base: 0
+  Test::More: 0
+provides:
+  HTTP::MobileAgent:
+    file: lib/HTTP/MobileAgent/Plugin/XHTML.pm
+  HTTP::MobileAgent::DoCoMo:
+    file: lib/HTTP/MobileAgent/Plugin/XHTML.pm
+  HTTP::MobileAgent::Plugin::XHTML:
+    file: lib/HTTP/MobileAgent/Plugin/XHTML.pm
+    version: 0.26_101
+  HTTP::MobileAgent::Vodafone:
+    file: lib/HTTP/MobileAgent/Plugin/XHTML.pm
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

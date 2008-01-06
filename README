@@ -1,0 +1,34 @@
+HTTP-MobileAgent-Plugin-XHTML version 0.26_101
+
+HTTP::MobileAgent::Plugin::XHTML is a plugin module of HTTP::MobileAgent, which
+implements method to check whether terminal supports xhtml or not.
+
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+Alternatively, to install with Module::Build, you can use the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+
+DEPENDENCIES
+
+HTTP::MobileAgent 0.26_1
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2007, OHTSUKA Ko-hei
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
